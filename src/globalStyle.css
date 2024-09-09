@@ -1,0 +1,6 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+.btn:disabled, .btn.disabled, fieldset:disabled .btn {
+    cursor: not-allowed;
+    pointer-events: auto;
+}
